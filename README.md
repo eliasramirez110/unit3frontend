@@ -30,9 +30,10 @@ USER STORIES
 - when I see a product I like, I can select it, add it to a cart
 - If I no longer want a product, I can delete it from my cart
 - When I am ready to checkout with my product in my cart, I can pay for the product 
-
+- Ability to update user account info
 
 STRECH GOALS
 - Ability to "favorite" products a user likes
-- Ability to update user account info
-- ability to save "payment methods" for later use
+- Ability to save "payment methods" for later use
+
+
