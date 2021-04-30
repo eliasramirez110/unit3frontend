@@ -1,0 +1,101 @@
+html {
+  font-size: 62.5%; 
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Layout */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr 80px;
+  height: 100%;
+}
+header {
+  grid-area: header;
+  background-color: #203040;
+}
+main {
+  grid-area: main;
+  padding: 15px;
+}
+footer {
+  grid-area: footer;
+  background-color: #203040;
+  color: #ffffff;
+}
+/* Common */
+h1 {
+  font-size: 28px;
+  padding: 15px 0;
+}
+h2 {
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #ff8000;
+}
+/* Header */
+header a {
+  color: #ffffff;
+  padding: 15px;
+}
+a.brand {
+  color: cyan;
+  font-size: 48px;
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.row.center {
+  justify-content: center;
+}
+/* Image */
+/* img {
+  
+} */
+img.medium {
+  max-width: 320px;
+  width: 100%;
+}
+
+/* Card */
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8f8;
+  
+  margin: 15px;
+}
+.card-body {
+  padding: 15px;
+}
+/* for all elements inside body */
+.card-body > * {
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 25px;
+}
+/* Rating */
+.rating span {
+  color: #f0c040;
+  margin: 10px;
+}
